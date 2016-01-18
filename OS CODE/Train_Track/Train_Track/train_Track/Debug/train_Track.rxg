@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\RTOS\Train_Track\train_Track\Debug\train_Track.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

@@ -1,0 +1,92 @@
+Optimizing Linkage Editor (V.10.02.00.000)        22-Oct-2015 17:19:29
+
+*** Options ***
+
+-subcommand=C:\RTOS\Train_Track\train_Track\Debug\train_Track.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\RTOS\Train_Track\train_Track\Debug\train_Track.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\RTOS\Train_Track\train_Track\Debug\dbsct.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\flash_options.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\font_8x8.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\glyph.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\hwsetup.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\lcd.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\lowlvl.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\lowsrc.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\main.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\r_glyph.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\r_glyph_register.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\r_rspi_rx600.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\r_switches.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\resetprg.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\S12ADC.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\sbrk.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\st7579_lcd.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\uart.obj"
+-input="C:\RTOS\Train_Track\train_Track\Debug\vecttbl.obj"
+-library="C:\RTOS\Train_Track\train_Track\Debug\train_Track.lib"
+-output="C:\RTOS\Train_Track\train_Track\Debug\train_Track.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001527       128   1
+R_1
+                                  00001528  0000157c        55   1
+B_2
+                                  0000157e  0000157e         0   2
+R_2
+                                  0000157e  0000157e         0   2
+B
+                                  00001580  000019eb       46c   4
+R
+                                  000019ec  0000207f       694   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff81448       281   4
+D
+                                  fff8144c  fff81adf       694   4
+D_2
+                                  fff81ae0  fff81ae0         0   2
+D_1
+                                  fff81ae0  fff81b34        55   1
+P
+                                  fff81b35  fff861c3      468f   1
+W_1
+                                  fff861c4  fff861c4         0   1
+W_2
+                                  fff861c4  fff862c5       102   2
+W
+                                  fff862c8  fff862c8         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

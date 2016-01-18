@@ -1,0 +1,2 @@
+Application
+This is an empty application to be used as a base project. Initializes board and blinks an LED.

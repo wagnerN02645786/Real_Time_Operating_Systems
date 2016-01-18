@@ -1,0 +1,33 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"train_Track" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\hwsetup.c" 
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\lcd.c" 
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\resetprg.c" 
+"C:\RTOS\Train_Track\train_Track\r_glyph\src\r_glyph.c" 
+"C:\RTOS\Train_Track\train_Track\r_glyph\src\r_glyph_register.c" 
+"C:\RTOS\Train_Track\train_Track\r_rspi_rx600\src\r_rspi_rx600.c" 
+"C:\RTOS\Train_Track\train_Track\r_switches\src\r_switches.c" 
+"C:\RTOS\Train_Track\train_Track\src\main.c" 
+"C:\RTOS\Train_Track\train_Track\src\S12ADC.c" 
+"C:\RTOS\Train_Track\train_Track\src\uart.c" 
+[WORKSPACE_FILE_STATES]
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\hwsetup.c" 26 26 1018 269 0 5 
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\lcd.c" 52 52 1046 265 0 7 
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\resetprg.c" 78 78 1050 250 0 3 
+"C:\RTOS\Train_Track\train_Track\r_glyph\src\r_glyph.c" 78 78 997 269 0 8 
+"C:\RTOS\Train_Track\train_Track\r_glyph\src\r_glyph_register.c" 104 104 997 269 0 9 
+"C:\RTOS\Train_Track\train_Track\r_rspi_rx600\src\r_rspi_rx600.c" 0 341 160 39 0 1 
+"C:\RTOS\Train_Track\train_Track\r_switches\src\r_switches.c" 52 52 1046 246 0 2 
+"C:\RTOS\Train_Track\train_Track\src\S12ADC.c" 0 0 1170 393 0 4 
+"C:\RTOS\Train_Track\train_Track\src\main.c" -8 -31 1117 412 1 0 
+"C:\RTOS\Train_Track\train_Track\src\uart.c" 52 52 1018 269 0 6 
+[LOADED_PROJECTS]
+"train_Track" 
+[END]

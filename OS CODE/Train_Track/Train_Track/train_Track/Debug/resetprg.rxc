@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="C:\RTOS\Train_Track\train_Track\r_bsp"
+-include="C:\RTOS\Train_Track\train_Track\r_glyph"
+-include="C:\RTOS\Train_Track\train_Track\r_glyph\src"
+-include="C:\RTOS\Train_Track\train_Track\r_glyph\src\glyph"
+-include="C:\RTOS\Train_Track\train_Track\r_rspi_rx600"
+-include="C:\RTOS\Train_Track\train_Track\r_rspi_rx600\src"
+-include="C:\RTOS\Train_Track\train_Track\r_switches"
+-include="C:\RTOS\Train_Track\train_Track\r_switches\src"
+-include="C:\RTOS\Train_Track\train_Track\src"
+-output=obj="C:\RTOS\Train_Track\train_Track\Debug\resetprg.obj"
+-debug
+-speed
+"C:\RTOS\Train_Track\train_Track\r_bsp\board\rdkrx63n\resetprg.c"
+-nologo
