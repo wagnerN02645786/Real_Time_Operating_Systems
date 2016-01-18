@@ -1,0 +1,5 @@
+"C:\RTOS\test2\test2\test2\r_bsp\board\rdkrx63n\lowlvl.src"
+-cpu=rx600
+-debug
+-output="C:\RTOS\test2\test2\test2\Debug\lowlvl.obj"
+-nologo

@@ -1,0 +1,91 @@
+Optimizing Linkage Editor (V.10.02.00.000)        03-Nov-2015 12:18:31
+
+*** Options ***
+
+-subcommand=C:\RTOS\test2\test2\test2\Debug\test2.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\RTOS\test2\test2\test2\Debug\test2.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\RTOS\test2\test2\test2\Debug\adc_oneshot_demo_main.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\dbsct.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\flash_options.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\font_8x8.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\glyph.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\hwsetup.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\lcd.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\lowlvl.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\lowsrc.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\r_glyph.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\r_glyph_register.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\r_rspi_rx600.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\resetprg.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\S12ADC.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\sbrk.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\st7579_lcd.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\vecttbl.obj"
+-input="C:\RTOS\test2\test2\test2\Debug\wdt.obj"
+-library="C:\RTOS\test2\test2\test2\Debug\test2.lib"
+-output="C:\RTOS\test2\test2\test2\Debug\test2.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001427        28   1
+R_1
+                                  00001428  00001485        5e   1
+B_2
+                                  00001486  00001486         0   2
+R_2
+                                  00001486  00001486         0   2
+B
+                                  00001488  000018df       458   4
+R
+                                  000018e0  00001f57       678   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ac7       ac8   1
+C_2
+                                  fff80ac8  fff80cc9       202   2
+C
+                                  fff80ccc  fff80d83        b8   4
+C$DSEC
+                                  fff80d84  fff80da7        24   4
+C$BSEC
+                                  fff80da8  fff80dbf        18   4
+C$VECT
+                                  fff80dc0  fff811bf       400   4
+L
+                                  fff811c0  fff81368       1a9   4
+D
+                                  fff8136c  fff819e3       678   4
+D_2
+                                  fff819e4  fff819e4         0   2
+D_1
+                                  fff819e4  fff81a41        5e   1
+P
+                                  fff81a42  fff85fe8      45a7   1
+W_1
+                                  fff85fe9  fff85fe9         0   1
+W_2
+                                  fff85fea  fff860bb        d2   2
+W
+                                  fff860bc  fff860bc         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

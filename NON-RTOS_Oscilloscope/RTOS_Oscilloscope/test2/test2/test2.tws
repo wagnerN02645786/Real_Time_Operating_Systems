@@ -1,0 +1,23 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"test2" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_bsp\board\rdkrx63n\lcd.c" 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_bsp\board\rdkrx63n\wdt.c" 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_glyph\src\glyph\fonts\font_8x8.c" 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\src\adc_oneshot_demo_main.c" 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\src\S12ADC.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_bsp\board\rdkrx63n\lcd.c" 26 26 1050 282 0 1 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_bsp\board\rdkrx63n\wdt.c" -8 -31 1170 425 1 4 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\r_glyph\src\glyph\fonts\font_8x8.c" 52 52 1050 282 0 2 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\src\S12ADC.c" 78 78 1050 282 0 3 
+"C:\Users\Mitchell\Desktop\RTOS_Oscilloscope\test2\test2\test2\src\adc_oneshot_demo_main.c" 0 0 1046 278 0 0 
+[LOADED_PROJECTS]
+"test2" 
+[END]

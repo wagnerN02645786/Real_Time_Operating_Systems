@@ -1,0 +1,14 @@
+-cpu=rx600
+-lang=c99
+-include="C:\RTOS\test2\test2\test2\r_bsp"
+-include="C:\RTOS\test2\test2\test2\r_glyph"
+-include="C:\RTOS\test2\test2\test2\r_glyph\src"
+-include="C:\RTOS\test2\test2\test2\r_glyph\src\glyph"
+-include="C:\RTOS\test2\test2\test2\r_rspi_rx600"
+-include="C:\RTOS\test2\test2\test2\r_rspi_rx600\src"
+-include="C:\RTOS\test2\test2\test2\src"
+-output=obj="C:\RTOS\test2\test2\test2\Debug\vecttbl.obj"
+-debug
+-speed
+"C:\RTOS\test2\test2\test2\r_bsp\board\rdkrx63n\vecttbl.c"
+-nologo
